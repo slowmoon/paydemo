@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.test.pay.apppay.MainActivity">
+
+        <EditText
+            android:id="@+id/edit1"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:hint="请输入内容"
+            android:textColorHint="#aaa" />
+
+        <Button
+            android:id="@+id/bh5"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="微信H5支付" />
+        <Button
+            android:id="@+id/bapp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="微信App支付" />
+
+        <Button
+            android:id="@+id/alip"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="支付宝支付" />
+
+</LinearLayout>
